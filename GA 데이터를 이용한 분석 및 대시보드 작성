@@ -22,7 +22,7 @@ Google analytics 데이터 분석을 리뷰합니다.
 
 ![https://blog.kakaocdn.net/dn/63pOh/btsITiDonUr/spzwupFUEc4RjRmZgZoIW0/img.png](https://blog.kakaocdn.net/dn/63pOh/btsITiDonUr/spzwupFUEc4RjRmZgZoIW0/img.png)
 
-### 코드 펼치기
+
 
 ```bash
 query = """
@@ -108,7 +108,7 @@ f_data = client.query(query).result().to_dataframe()
 위 코드를 사용하여, 방문자마다 확인한 제품을 기본 키로 하는 데이터 프레임을 생성하였습니다.
 해당 데이터를 제품으로 필터링하여 제품별 방문자의 행동에 대한 통계를 대시보드로 작성할 수 있습니다. 
 
-![Untitled](Untitled%2041.png)
+![Untitled](https://github.com/user-attachments/assets/f8a44364-aa10-42df-99f7-41caca38d72c)
 
 위 데이터를 사용하여 작성한 Excel 대시보드입니다. 날짜와 최종 행동유형, 제품명으로 대시보드를 필터링 할 수 있습니다. 
 
@@ -126,7 +126,7 @@ f_data = client.query(query).result().to_dataframe()
 
 ![https://blog.kakaocdn.net/dn/s7vfE/btsIRym6pV5/heZkpDQTsU56WE9PpXg9hK/img.png](https://blog.kakaocdn.net/dn/s7vfE/btsIRym6pV5/heZkpDQTsU56WE9PpXg9hK/img.png)
 
-### 코드 펼치기
+
 
 ```bash
 query = """
@@ -202,7 +202,7 @@ Google Merchadise Store 웹페이지 홈 화면엔 제품 프로모션을 제공
 
 ![https://blog.kakaocdn.net/dn/bLP74J/btsITf7KBFU/nP9WUxXPeeKfZW4KwFaQBk/img.png](https://blog.kakaocdn.net/dn/bLP74J/btsITf7KBFU/nP9WUxXPeeKfZW4KwFaQBk/img.png)
 
-### 코드 펼치기
+
 
 ```bash
 query = """
@@ -387,9 +387,9 @@ for category in ['Apparel','Office','Drinkware']:
 
 이를 통하여 드링크 웨어 카테고리의 제품을 프로모션에 노출 시키는 것이 매출 상승에 효과가 있다고 판단할 수 있습니다.
 
-![Untitled](Untitled%2042.png)
+![Untitled 1](https://github.com/user-attachments/assets/712e8f69-e230-4bd8-aed3-45b178b527f9)
 
-### 코드 펼치기
+
 
 ```bash
 query = """
@@ -514,25 +514,25 @@ d_data = d_data.drop_duplicates()
 
 태블로를 이용한 대시보드를 작성해 보겠습니다. 태블로는 특정 테이블에 대한 고유값 카운트가 가능하기 때문에 엑셀 대시보드 작성 때처럼 형태를 변형하지 않고 RAW 데이터 형태 그대로 데이터를 불러오겠습니다.
 
-![Untitled](Untitled%2043.png)
+![Untitled 2](https://github.com/user-attachments/assets/8e3d53e5-a289-42de-a31a-f1ab46a8866b)
 
 태블로를 활용하여 작성한 대시보드입니다. 
 
 이를 이용하여 분석을 수행해 보겠습니다.
 
-![Untitled](Untitled%2044.png)
+![Untitled 3](https://github.com/user-attachments/assets/4b268257-6096-4812-985c-03734c2835bb)
 
 데스크탑을 사용하는 고객은 주소를 직접 입력하거나 즐겨찾기를 통해 사이트를 방문하며, 평균 방문 횟수가 결제 금액이 높은 충성 고객이 많고, 결제 완료까지 가는 비율이 높습니다.
 
 모바일을 사용하는 고객은 구글 검색을 통하여 방문하며, 평균 결제금액과 방문 횟수가 상대적으로 적은 첫 방문 고객이 많으며, 결제 완료까지 가는 비율이 낮습니다.
 
-![Untitled](Untitled%2045.png)
+![Untitled 4](https://github.com/user-attachments/assets/61af5569-b107-420e-85cc-2d7d8770c28f)
 
 고객의 유입 매체별 분석입니다. 대부분 고객은 오전 8시~오후2시 시간대에 사이트를 방문하지만, CPC(클릭 시 비용이 지불되는 광고를 통한 트래픽)의 경우 저녁 시간대 방문이 많기 때문에 저녁 시간대 광고 노출을 늘리는 것이 좋다고 판단됩니다.
 
 링크를 통한 유입(Referral)의 경우 결제 완료 단계로 가는 비율이 2%로 매우 낮고 매출액도 낮기 때문에 만약 리퍼럴 마케팅을 위한 비용을 지불하고 있을 경우 마케팅을 하지 않는게 비용 측면에서 더 나을 수 있습니다. 특히나 Referral의 경우 유튜브를 통한 유입이 65%지만 이 중 결제 완료 단계까지 가는 경우는 0.002% 수준으로 매우 낮은 수준이었습니다.
 
-![Untitled](Untitled%2046.png)
+![Untitled 5](https://github.com/user-attachments/assets/308724fc-c780-456d-8827-73c473ae959d)
 
 2017년 7월 13일의 방문자 수는 다른 날과 비교해서 많지 않지만 매출액은 비정상 적으로 높은 것을 알 수 있습니다.
 
