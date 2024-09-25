@@ -32,7 +32,7 @@ Text: 당뇨, 고혈압, 비만에 대한 딥러닝 예측 모델 개발
 
 1. 녹십자 사이트의 환자 혈액 정보 데이터를 크롤링을 이용하여 수집
 
-![Untitled](Untitled%2047.png)
+![Untitled 14](https://github.com/user-attachments/assets/f7d60bd3-3631-4bed-86b0-238354da56df)
 
 [상관분석]
 
@@ -40,7 +40,7 @@ Text: 당뇨, 고혈압, 비만에 대한 딥러닝 예측 모델 개발
 2. 방문 횟수 2회 이하 환자 데이터 제거
 3. 변수 데이터 간 상관분석 수행
 
-![Untitled](Untitled%2048.png)
+![Untitled 15](https://github.com/user-attachments/assets/1e6eff89-f7af-4f3d-b023-ef6c9c8b87d7)
 
 [데이터 전처리]
 
