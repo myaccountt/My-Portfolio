@@ -40,7 +40,6 @@
 2. 방문 횟수 2회 이하 환자 데이터 제거
 3. 변수 데이터 간 상관분석 수행
 
-![Untitled 15](https://github.com/user-attachments/assets/1e6eff89-f7af-4f3d-b023-ef6c9c8b87d7)
 
 [데이터 전처리]
 
