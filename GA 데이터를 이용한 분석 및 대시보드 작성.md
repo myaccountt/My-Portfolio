@@ -1,7 +1,7 @@
 # GA 데이터를 이용한 분석 및 대시보드 작성
 
 - Text: Google Merchandise Store의 Google Analytics 데이터를 사용하여 대시보드를 작성하고 분석
-- 수행 기간: 2024-05 ~ 2024-07
+- 수행 기간: 2024-05 ~ 2024-07 (약 120시간)
 - 수행인원: 1
 - 사용 툴: SQL, Python, Tableau, Excel
 - 배경: 포트폴리오 작성을 위한  1인 개인 프로젝트입니다.
